@@ -8,17 +8,20 @@
     <column id="3" parent="2" name="name">
       <data-type>TEXT(0,-1)|12</data-type>
     </column>
-    <column id="4" parent="2" name="cal">
-      <data-type>INT(0,-1)|4</data-type>
+    <column id="4" parent="2" name="b">
+      <data-type>REAL(0,-1)|6</data-type>
     </column>
     <column id="5" parent="2" name="j">
       <data-type>REAL(0,-1)|6</data-type>
     </column>
-    <column id="6" parent="2" name="b">
+    <column id="6" parent="2" name="u">
       <data-type>REAL(0,-1)|6</data-type>
     </column>
-    <column id="7" parent="2" name="u">
+    <column id="7" parent="2" name="cal">
       <data-type>REAL(0,-1)|6</data-type>
+    </column>
+    <column id="8" parent="2" name="cat">
+      <data-type>TEXT(0,-1)|12</data-type>
     </column>
   </database-model>
 </dataSource>

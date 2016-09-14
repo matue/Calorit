@@ -4,13 +4,18 @@ import sqlite3
 
 def show_product_list():
     cursor = sqlite3.connect('main.db').cursor()
-    result=cursor.execute("SELECT name FROM products").fetchall()
-    return template('views/main_page', rows=result)
+    result_by_name=cursor.execute("SELECT *  FROM products ORDER BY name").fetchall()
+    result_by_kcal = cursor.execute("SELECT *  FROM products ORDER BY cal DESC").fetchall()
+    result_by_cat = cursor.execute("SELECT *  FROM products ORDER BY cat,name").fetchall()
+    return template('views/main_page',
+                    result_by_name=result_by_name,
+                    result_by_kcal=result_by_kcal,
+                    result_by_cat=result_by_cat)
 
 
 def show_product_info(product):
     cursor = sqlite3.connect('main.db').cursor()
-    result=cursor.execute("SELECT CAL, j, b, u FROM products WHERE name='%s'" % (product)).fetchall()
+    result=cursor.execute("SELECT * FROM products WHERE name='%s'" % (product)).fetchall()
     if result:
         return template('views/product_info', rows=result, product=product)
     else:
