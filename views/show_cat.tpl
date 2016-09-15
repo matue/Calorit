@@ -1,11 +1,9 @@
 %include('head.tpl',title='Calori')
-%theadlist=('Наименование продукта','Белки','Жиры','Углеводы','Калорийность','Категория')
+%theadlist=('Наименование продукта','Белки','Жиры','Углеводы','Калорийность')
 
 
 <div class="jumbotron well">
-    <h4>Привет!</h4>
-    <h4>Это сайт с информацией о еде.</h4>
-    <h4>Продуктов в базе: <b>{{len(result_by_name)}}</b>.</h4>
+    <h4>Продуктов в категории "{{category}}" : <b>{{len(result_by_name)}}</b>.</h4>
     <h4>Нажми на продукт чтобы узнать о нем подробнее.</h4>
 </div>
     <div class="tabbable" id="tabs">
@@ -15,9 +13,6 @@
             </li>
             <li>
                 <a href="#result_by_kcal" data-toggle="tab">По калорийности</a>
-            </li>
-            <li>
-                <a href="#result_by_cat" data-toggle="tab">По категории</a>
             </li>
         </ul>
         <div class="tab-content">
@@ -40,7 +35,6 @@
                                             %for i in range(1,5):
                                                 <td>{{row[i]}}</td>
                                             %end
-                                        <td><a href="/{{row[5]}}">{{row[5]}}</a></td>
                                     </tr>
                                 %end
                             </tbody>
@@ -66,36 +60,12 @@
                                             %for i in range(1,5):
                                                 <td>{{row[i]}}</td>
                                             %end
-                                        <td><a href="/{{row[5]}}">{{row[5]}}</a></td>
                                     </tr>
                                 %end
                             </tbody>
                     </table>
                 </p>
             </div>
-
-            <div class="tab-pane" id="result_by_cat">
-                <p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                %for i in theadlist:
-                                    <th>{{i}}</th>
-                                %end
-                            </tr>
-                        </thead>
-                            <tbody>
-                                <tr>
-                                %for row in result_by_cat:
-                                    <tr>
-                                        <td><a href="/{{row[5]}}/{{row[0]}}">{{row[0]}}</a></td>
-                                            %for i in range(1,5):
-                                                <td>{{row[i]}}</td>
-                                            %end
-                                        <td><a href="/{{row[5]}}">{{row[5]}}</a></td>
-                                    </tr>
-                                %end
-                            </tbody>
                     </table>
                 </p>
             </div>

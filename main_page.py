@@ -13,7 +13,7 @@ def show_product_list():
                     result_by_cat=result_by_cat)
 
 
-def show_product_info(product):
+def show_product_info(category,product):
     cursor = sqlite3.connect('main.db').cursor()
     result=cursor.execute("SELECT * FROM products WHERE name='%s'" % (product)).fetchall()
     if result:
@@ -21,18 +21,42 @@ def show_product_info(product):
     else:
         return('page not found')
 
+def show_category(category):
+    cursor = sqlite3.connect('main.db').cursor()
+    result_by_name=cursor.execute("SELECT *  FROM products WHERE cat LIKE '%s' ORDER BY name" %(category+'%')).fetchall()
+    result_by_kcal = cursor.execute("SELECT *  FROM products WHERE cat LIKE '%s' ORDER BY cal DESC"  %(category+'%')).fetchall()
+    if result_by_name:
+        return template('views/show_cat',
+                        result_by_name=result_by_name,
+                        result_by_kcal=result_by_kcal,
+                        category=category)
+    else:
+        return('page not found')
+
+@route('/static/<filename>')
+def server_static(filename):
+    return static_file(filename, root='C:/Users/Никита/PycharmProjects/calori/static/')
+
+
+@route('/<cat>/static/<filename>')
+def server_static(filename, cat):
+    return static_file(filename, root='C:/Users/Никита/PycharmProjects/calori/static/')
+
 
 @route('/')
 def show_main():
     return show_product_list()
 
-@route('/:product')
-def show_product(product):
-    return show_product_info(product)
 
-@route('/static/<filename>')
-def server_static(filename):
-    return static_file(filename,
-                       root='C:/Users/Никита/PycharmProjects/calori/static')
+@route('/:category')
+def show_cat(category):
+    return show_category(category)
+
+@route('/:category/:product')
+def show_product(category,product):
+    return show_product_info(category,product)
+
+
+
 
 run(host='localhost', port=80, reloader=True)
