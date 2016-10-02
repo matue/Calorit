@@ -4,24 +4,41 @@
     <schema id="1">
       <visible>1</visible>
     </schema>
-    <table id="2" parent="1" name="products"/>
-    <column id="3" parent="2" name="name">
+    <table id="2" parent="1" name="category"/>
+    <table id="3" parent="1" name="products"/>
+    <column id="4" parent="2" name="catname">
       <data-type>TEXT(0,-1)|12</data-type>
     </column>
-    <column id="4" parent="2" name="b">
-      <data-type>REAL(0,-1)|6</data-type>
-    </column>
-    <column id="5" parent="2" name="j">
-      <data-type>REAL(0,-1)|6</data-type>
-    </column>
-    <column id="6" parent="2" name="u">
-      <data-type>REAL(0,-1)|6</data-type>
-    </column>
-    <column id="7" parent="2" name="cal">
-      <data-type>REAL(0,-1)|6</data-type>
-    </column>
-    <column id="8" parent="2" name="cat">
+    <key id="5" parent="2">
+      <columns>catname</columns>
+      <primary>1</primary>
+    </key>
+    <column id="6" parent="3" name="name">
       <data-type>TEXT(0,-1)|12</data-type>
     </column>
+    <column id="7" parent="3" name="b">
+      <data-type>REAL(0,-1)|6</data-type>
+    </column>
+    <column id="8" parent="3" name="j">
+      <data-type>REAL(0,-1)|6</data-type>
+    </column>
+    <column id="9" parent="3" name="u">
+      <data-type>REAL(0,-1)|6</data-type>
+    </column>
+    <column id="10" parent="3" name="cal">
+      <data-type>REAL(0,-1)|6</data-type>
+    </column>
+    <column id="11" parent="3" name="cat">
+      <data-type>TEXT(0,-1)|12</data-type>
+    </column>
+    <foreign-key id="12" parent="3" name="#FAKE_products_1">
+      <name-surrogate>1</name-surrogate>
+      <columns>cat</columns>
+      <deferrable>1</deferrable>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.category.#1</ref-key>
+      <cascade-update-rule>no_action</cascade-update-rule>
+      <cascade-delete-rule>no_action</cascade-delete-rule>
+    </foreign-key>
   </database-model>
 </dataSource>

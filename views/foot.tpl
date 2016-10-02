@@ -7,4 +7,8 @@
 </div>
 
 <!-- container end -->
-
+<br>
+<center>
+Made by <a href="mailto:nik.matue@gmail.com">Nik Matue</a>
+</center>
+<br>

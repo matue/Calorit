@@ -9,7 +9,7 @@
     <h4>Нажми на продукт чтобы узнать о нем подробнее.</h4>
 </div>
     <div class="tabbable" id="tabs">
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-pills">
             <li class="active">
                 <a href="#result_by_name" data-toggle="tab">По алфавиту</a>
             </li>
@@ -18,6 +18,9 @@
             </li>
             <li>
                 <a href="#result_by_cat" data-toggle="tab">По категории</a>
+            </li>
+            <li>
+                <a href="#add_new" data-toggle="tab">Добавить продукт</a>
             </li>
         </ul>
         <div class="tab-content">
@@ -99,6 +102,57 @@
                     </table>
                 </p>
             </div>
+
+             <div class="tab-pane" id="add_new">
+                <p>
+                   <form role="form" action="/addnew" method="post">
+                        <div class="form-group">
+                            <label for="product_name">
+                                Наименование продукта
+                            </label>
+                            <input class="form-control" id="product_name" name="product_name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="category">
+                                Категория
+                            </label>
+                            <select class="form-control" id="category" name="category">
+                            %for i in  cat_list[1:]:
+                                <option value="{{i[0][:-1]}}">{{i[0][:-1]}}</option>
+                            %end
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="kcal">
+                                Калорийность
+                            </label>
+                            <input class="form-control" id="ccal" name="kcal" />
+                        </div>
+                        <div class="form-group">
+                            <label for="proteins">
+                                Белки
+                            </label>
+                            <input class="form-control" id="proteins" name="proteins" />
+                        </div>
+                        <div class="form-group">
+                            <label for="fats">
+                                Жиры
+                            </label>
+                            <input class="form-control" id="fats" name="fats" />
+                        </div>
+                        <div class="form-group">
+                            <label for="carbs">
+                                Углеводы
+                            </label>
+                            <input class="form-control" id="carbs" name="carbs"/>
+                        </div>
+                        <button type="submit" class="btn btn-default">
+                            Добавить
+                        </button>
+                    </form>
+                </p>
+            </div>
+
         </div>
     </div>
 

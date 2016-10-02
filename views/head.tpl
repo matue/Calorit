@@ -34,16 +34,6 @@
                 <a href="/about">О сайте</a>
             </li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" />
-                </div>
-                <button type="submit" class="btn btn-default">
-                    Поиск
-                </button>
-            </form>
-        </ul>
     </div>
 </nav>
 

@@ -5,7 +5,7 @@ jj=[]
 bb=[]
 uu=[]
 ct=[]
-with open('db.txt','r') as f:
+with open('db.csv','r') as f:
     f=f.readlines()
     for i in f:
         i=i.split(';')
