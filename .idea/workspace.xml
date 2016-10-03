@@ -478,7 +478,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Изменен путь к файлам фреймворка bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменен путь к файлам фреймворка bootstrap" />
+    <MESSAGE value="Изменен файл workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменен файл workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
