@@ -23,12 +23,12 @@ def addnew():
 
 @route('/static/<filename>')
 def server_static(filename):
-    return static_file(filename, root='C:/Users/Никита/PycharmProjects/calori/static/')
+    return static_file(filename, root='C:/Users/Никита/Documents/GitHub/calori/static/')
 
 
 @route('/<cat>/static/<filename>')
 def server_static(filename, cat):
-    return static_file(filename, root='C:/Users/Никита/PycharmProjects/calori/static/')
+    return static_file(filename, root='C:/Users/Никита/Documents/GitHub/calori/static/')
 
 
 @route('/about')
