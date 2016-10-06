@@ -18,7 +18,8 @@ def addnew():
     cursor.execute(query)
     conn.commit()
     return template('views/addnew',
-                    product_name=product_name)
+                    product_name=product_name,
+                    category=category)
 
 
 @route('/static/<filename>')
@@ -74,4 +75,4 @@ def show_category(category):
         return('page not found')
 
 
-run(host='localhost', port=80, reloader=True)
+run(host='localhost', port=8080, reloader=True)

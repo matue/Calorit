@@ -118,7 +118,7 @@
                             </label>
                             <select class="form-control" id="category" name="category">
                             %for i in  cat_list[1:]:
-                                <option value="{{i[0][:-1]}}">{{i[0][:-1]}}</option>
+                                <option value="{{i[0]}}">{{i[0]}}</option>
                             %end
                             </select>
                         </div>
