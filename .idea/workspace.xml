@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9872b479-410e-4f72-9317-1c41dcccfd89" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db uploader.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db.csv" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/db uploader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/db.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_page.py" afterPath="$PROJECT_DIR$/main_page.py" />
     </list>
     <ignored path="calori.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -205,6 +205,17 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -456,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475777097985</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="путь к статичным файлам вынесен в отдельный параметр&#10;запуск проекта вынесен в отдельный файл run.py&#10;">
+      <created>1475858700462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1475858700462</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -513,7 +531,8 @@
     <MESSAGE value="Изменен путь к файлам фреймворка bootstrap" />
     <MESSAGE value="Изменен файл workspace" />
     <MESSAGE value="добавлена ссылка на продукт при добавлении продукта&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлена ссылка на продукт при добавлении продукта&#10;" />
+    <MESSAGE value="путь к статичным файлам вынесен в отдельный параметр&#10;запуск проекта вынесен в отдельный файл run.py&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="путь к статичным файлам вынесен в отдельный параметр&#10;запуск проекта вынесен в отдельный файл run.py&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
