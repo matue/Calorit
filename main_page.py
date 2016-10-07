@@ -1,6 +1,9 @@
-from bottle import route, run, template, static_file, request, get, post
+from bottle import route, template, static_file, request, default_app
 import sqlite3
-import codecs
+
+# config:
+static_route='C:/Users/Никита/Documents/GitHub/calori/static/'
+# static_route='/bottle/static'
 
 
 @route('/addnew', method='POST')
@@ -19,17 +22,18 @@ def addnew():
     conn.commit()
     return template('views/addnew',
                     product_name=product_name,
-                    category=category)
+					category=category)
+
 
 
 @route('/static/<filename>')
 def server_static(filename):
-    return static_file(filename, root='C:/Users/Никита/Documents/GitHub/calori/static/')
+    return static_file(filename, root=static_route)
 
 
 @route('/<cat>/static/<filename>')
 def server_static(filename, cat):
-    return static_file(filename, root='C:/Users/Никита/Documents/GitHub/calori/static/')
+    return static_file(filename, root=static_route)
 
 
 @route('/about')
@@ -75,4 +79,4 @@ def show_category(category):
         return('page not found')
 
 
-run(host='localhost', port=8080, reloader=True)
+application = default_app()
