@@ -1,9 +1,6 @@
 from bottle import route, template, static_file, request, default_app
 import sqlite3
-
-# config:
-static_route='C:/Users/Никита/Documents/GitHub/calori/static/'
-# static_route='/bottle/static'
+import settings
 
 
 @route('/addnew', method='POST')
@@ -25,15 +22,14 @@ def addnew():
 					category=category)
 
 
-
 @route('/static/<filename>')
 def server_static(filename):
-    return static_file(filename, root=static_route)
+    return static_file(filename, root=settings.STATIC_ROUTE)
 
 
 @route('/<cat>/static/<filename>')
 def server_static(filename, cat):
-    return static_file(filename, root=static_route)
+    return static_file(filename, root=settings.STATIC_ROUTE)
 
 
 @route('/about')
