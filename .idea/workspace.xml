@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9872b479-410e-4f72-9317-1c41dcccfd89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_page.py" afterPath="$PROJECT_DIR$/main_page.py" />
     </list>
     <ignored path="calori.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -481,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475858799465</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="добавлен файл настроек settings.py">
+      <created>1476025166270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1476025166270</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -539,7 +544,8 @@
     <MESSAGE value="Изменен файл workspace" />
     <MESSAGE value="добавлена ссылка на продукт при добавлении продукта&#10;" />
     <MESSAGE value="путь к статичным файлам вынесен в отдельный параметр&#10;запуск проекта вынесен в отдельный файл run.py&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="путь к статичным файлам вынесен в отдельный параметр&#10;запуск проекта вынесен в отдельный файл run.py&#10;" />
+    <MESSAGE value="добавлен файл настроек settings.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен файл настроек settings.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
