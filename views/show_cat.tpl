@@ -7,7 +7,7 @@
     <h4>Нажми на продукт чтобы узнать о нем подробнее.</h4>
 </div>
     <div class="tabbable" id="tabs">
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-pills">
             <li class="active">
                 <a href="#result_by_name" data-toggle="tab">По алфавиту</a>
             </li>
