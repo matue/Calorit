@@ -1,4 +1,4 @@
-%include('head.tpl',title='Calori - About')
+%include('head.tpl',title='Calorit - О сайте')
 
 <div class="jumbotron well">
     <h4>Данный сайт разрабатывался для практики в использовании Python Web Frameworks.</h4>

@@ -19,7 +19,7 @@ def addnew():
     conn.commit()
     return template('views/addnew',
                     product_name=product_name,
-					category=category)
+                    category=category)
 
 
 @route('/static/<filename>')

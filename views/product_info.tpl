@@ -1,4 +1,4 @@
-%include('head.tpl',title=('Calori - '+product))
+%include('head.tpl',title=('Calorit - '+product))
 <div class="jumbotron well">
     <h4>Продукт "<b>{{product}}</b>".</h4>
     <h4>Содержание пищевых веществ (в граммах на 100 грамм съедобной части):</h4>
@@ -27,13 +27,12 @@
     </table>
 
     <b>Визуальное соотношение пищевых веществ к общей массе продукта:</b><br><br>
-    %b,j,u = rows[0][1], rows[0][2] , rows[0][3]
     <div class="progress">
-      <div class="progress-bar progress-bar-danger" style="width: {{b}}%">
+      <div class="progress-bar progress-bar-danger" style="width: {{rows[0][1]}}%">
       </div>
-      <div class="progress-bar progress-bar-warning" style="width: {{j}}%">
+      <div class="progress-bar progress-bar-warning" style="width: {{rows[0][2]}}%">
       </div>
-      <div class="progress-bar progress-bar-success" style="width: {{u}}%">
+      <div class="progress-bar progress-bar-success" style="width: {{rows[0][3]}}%">
       </div>
     </div>
 

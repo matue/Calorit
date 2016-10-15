@@ -1,4 +1,4 @@
-%include('head.tpl',title='Calori')
+%include('head.tpl',title='Calorit - Главная')
 %theadlist=('Наименование продукта','Белки','Жиры','Углеводы','Калорийность','Категория')
 
 

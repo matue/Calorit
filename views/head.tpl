@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{title}}</title>
         <meta name="description" content="">
-        <meta name="Serebrennikovn Nikita" content="Kcal">
+        <meta name="Serebrennikovn Nikita" content="Calorit">
         <link href="static/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="static/style.css" rel="stylesheet" type="text/css">
         <script src="static/jquery.min.js"></script>
@@ -26,7 +26,7 @@
 
 <nav class="navbar navbar-default" role="navigation">
     <div class="navbar-header">
-        <a class="navbar-brand" href="/">Kcal</a>
+        <a class="navbar-brand" href="/">Calorit</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
