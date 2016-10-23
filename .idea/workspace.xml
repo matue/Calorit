@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9872b479-410e-4f72-9317-1c41dcccfd89" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.db" afterPath="$PROJECT_DIR$/main.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_page.py" afterPath="$PROJECT_DIR$/main_page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/about.tpl" afterPath="$PROJECT_DIR$/views/about.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/addnew.tpl" afterPath="$PROJECT_DIR$/views/addnew.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/head.tpl" afterPath="$PROJECT_DIR$/views/head.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main_page.tpl" afterPath="$PROJECT_DIR$/views/main_page.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/product_info.tpl" afterPath="$PROJECT_DIR$/views/product_info.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/show_cat.tpl" afterPath="$PROJECT_DIR$/views/show_cat.tpl" />
     </list>
     <ignored path="calori.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +19,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/calori$cherrypy_server.coverage" NAME="run Coverage Results" MODIFIED="1475857566618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/calori$main_page.coverage" NAME="main_page Coverage Results" MODIFIED="1475776777751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/calori$run.coverage" NAME="run Coverage Results" MODIFIED="1476512883323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/calori$run.coverage" NAME="run Coverage Results" MODIFIED="1477226549595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -46,18 +41,40 @@
       <file leaf-file-name="main_page.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#69#0" expanded="true" />
-                <marker date="1476513099310" expanded="true" signature="484:569" ph="INSERT INTO products... " />
-                <marker date="1476513099310" expanded="true" signature="1250:1297" ph="SELECT DISTI... products" />
-                <marker date="1476513099310" expanded="true" signature="1348:1385" ph="SELECT * FRO... products" />
-                <marker date="1476513099310" expanded="true" signature="1436:1477" ph="SELECT * FRO... products" />
-                <marker date="1476513099310" expanded="true" signature="1527:1568" ph="SELECT * FRO... products" />
-                <marker date="1476513099310" expanded="true" signature="1963:2001" ph="SELECT * FRO... products" />
-                <marker date="1476513099310" expanded="true" signature="2299:2356" ph="SELECT * FRO... products" />
-                <marker date="1476513099310" expanded="true" signature="2423:2484" ph="SELECT * FRO... products" />
+                <marker date="1477226537274" expanded="true" signature="484:569" ph="INSERT INTO products... " />
+                <marker date="1477226537274" expanded="true" signature="1250:1297" ph="SELECT DISTI... products" />
+                <marker date="1477226537274" expanded="true" signature="1348:1385" ph="SELECT * FRO... products" />
+                <marker date="1477226537274" expanded="true" signature="1436:1477" ph="SELECT * FRO... products" />
+                <marker date="1477226537274" expanded="true" signature="1527:1568" ph="SELECT * FRO... products" />
+                <marker date="1477226537274" expanded="true" signature="1963:2001" ph="SELECT * FRO... products" />
+                <marker date="1477226537274" expanded="true" signature="2299:2356" ph="SELECT * FRO... products" />
+                <marker date="1477226537274" expanded="true" signature="2423:2484" ph="SELECT * FRO... products" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,16 +112,16 @@
         <option value="dbtable:/85619e28/156dcc11-4489-403c-baa2-6b7831cbbe52/products" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/156dcc11-4489-403c-baa2-6b7831cbbe52/console.sql" />
         <option value="$PROJECT_DIR$/cherrypy_server.py" />
-        <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/views/about.tpl" />
         <option value="$PROJECT_DIR$/views/head.tpl" />
         <option value="$PROJECT_DIR$/views/product_info.tpl" />
         <option value="$PROJECT_DIR$/views/addnew.tpl" />
         <option value="$PROJECT_DIR$/views/main_page.tpl" />
         <option value="$PROJECT_DIR$/views/show_cat.tpl" />
-        <option value="$PROJECT_DIR$/main_page.py" />
         <option value="$PROJECT_DIR$/1.py" />
+        <option value="$PROJECT_DIR$/main_page.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
   </component>
@@ -148,41 +165,17 @@
       <pane id="Scratches">
         <subPane />
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="calori" />
+              <option name="myItemId" value="calorit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calori" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calori" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calori" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calori" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,21 +183,21 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;Sqlite (Xerial)" />
     <property name="database.data.extractors.current" value="Comma-separated (CSV)" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/run.py" />
-    <property name="settings.editor.selected.configurable" value="database.data.csv.formats" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Никита\PycharmProjects\calori\static" />
-      <recent name="C:\Users\Никита\PycharmProjects\calori\static\css" />
-      <recent name="C:\Users\Никита\PycharmProjects\calori" />
-      <recent name="C:\Users\Никита\PycharmProjects\calori\views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Никита\.PyCharm2016.2\config\consoles\db\156dcc11-4489-403c-baa2-6b7831cbbe52" />
       <recent name="C:\Users\Никита\PycharmProjects\calori\static" />
       <recent name="C:\Users\Никита\PycharmProjects\calori\views" />
       <recent name="C:\Users\Никита\PycharmProjects\calori" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Никита\PycharmProjects\calori\static" />
+      <recent name="C:\Users\Никита\PycharmProjects\calori\static\css" />
+      <recent name="C:\Users\Никита\PycharmProjects\calori" />
+      <recent name="C:\Users\Никита\PycharmProjects\calori\views" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run">
@@ -528,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476462691496</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Скорректированы заголовки страниц">
+      <created>1476513443915</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1476513443915</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -544,27 +544,27 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20149253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280363" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864675" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.304371" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3261105" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280363" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28602383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864675" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28602383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42565265" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -588,14 +588,15 @@
     <MESSAGE value="путь к статичным файлам вынесен в отдельный параметр&#10;запуск проекта вынесен в отдельный файл run.py&#10;" />
     <MESSAGE value="добавлен файл настроек settings.py" />
     <MESSAGE value="1)Добавлена визуализация соотношения пищевых веществ для каждого продукта&#10;2)Добавлена дополнительная информация о сайте в описание&#10;3)Изменен дизайн вкладок" />
-    <option name="LAST_COMMIT_MESSAGE" value="1)Добавлена визуализация соотношения пищевых веществ для каждого продукта&#10;2)Добавлена дополнительная информация о сайте в описание&#10;3)Изменен дизайн вкладок" />
+    <MESSAGE value="Скорректированы заголовки страниц" />
+    <option name="LAST_COMMIT_MESSAGE" value="Скорректированы заголовки страниц" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -735,18 +736,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/862e251/156dcc11-4489-403c-baa2-6b7831cbbe52/products">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/862e251/156dcc11-4489-403c-baa2-6b7831cbbe52/products" />
     <entry file="file://C:/Python34/Lib/site-packages/cherrypy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -762,29 +752,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cherrypy_server.py" />
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/about.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="56" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="48" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,32 +791,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.py" />
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.py">
+    <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#69#0" expanded="true" />
-            <marker date="1476513099310" expanded="true" signature="484:569" ph="INSERT INTO products... " />
-            <marker date="1476513099310" expanded="true" signature="1250:1297" ph="SELECT DISTI... products" />
-            <marker date="1476513099310" expanded="true" signature="1348:1385" ph="SELECT * FRO... products" />
-            <marker date="1476513099310" expanded="true" signature="1436:1477" ph="SELECT * FRO... products" />
-            <marker date="1476513099310" expanded="true" signature="1527:1568" ph="SELECT * FRO... products" />
-            <marker date="1476513099310" expanded="true" signature="1963:2001" ph="SELECT * FRO... products" />
-            <marker date="1476513099310" expanded="true" signature="2299:2356" ph="SELECT * FRO... products" />
-            <marker date="1476513099310" expanded="true" signature="2423:2484" ph="SELECT * FRO... products" />
+            <marker date="1477226537274" expanded="true" signature="484:569" ph="INSERT INTO products... " />
+            <marker date="1477226537274" expanded="true" signature="1250:1297" ph="SELECT DISTI... products" />
+            <marker date="1477226537274" expanded="true" signature="1348:1385" ph="SELECT * FRO... products" />
+            <marker date="1477226537274" expanded="true" signature="1436:1477" ph="SELECT * FRO... products" />
+            <marker date="1477226537274" expanded="true" signature="1527:1568" ph="SELECT * FRO... products" />
+            <marker date="1477226537274" expanded="true" signature="1963:2001" ph="SELECT * FRO... products" />
+            <marker date="1477226537274" expanded="true" signature="2299:2356" ph="SELECT * FRO... products" />
+            <marker date="1477226537274" expanded="true" signature="2423:2484" ph="SELECT * FRO... products" />
           </folding>
         </state>
       </provider>
