@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from bottle import route, template, static_file, request, default_app
 import sqlite3
 import settings

@@ -19,9 +19,9 @@
             <li>
                 <a href="#result_by_cat" data-toggle="tab">По категории</a>
             </li>
-            <li>
+            <!--li>
                 <a href="#add_new" data-toggle="tab">Добавить продукт</a>
-            </li>
+            </li-->
         </ul>
         <div class="tab-content">
 
