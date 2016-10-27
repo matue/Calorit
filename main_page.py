@@ -3,7 +3,7 @@ from bottle import route, template, static_file, request, default_app
 import sqlite3
 import settings
 
-
+'''
 @route('/addnew', method='POST')
 def addnew():
     product_name = request.forms.get('product_name')
@@ -21,7 +21,7 @@ def addnew():
     return template('views/addnew',
                     product_name=product_name,
                     category=category)
-
+'''
 
 @route('/static/<filename>')
 def server_static(filename):
