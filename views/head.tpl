@@ -34,7 +34,11 @@
             <li>
                 <a href="/about">О сайте</a>
             </li>
+            <li>
+                <a href="https://telegram.me/calorit_bot">Telegram bot</a>
+            </li>
         </ul>
+
     </div>
 </nav>
 
