@@ -11,7 +11,7 @@ def db_exec(message):  # функция соединяется с базой и 
         conn = sqlite3.connect('main.db')
         cursor = conn.cursor()
         exec_result = cursor.execute("SELECT * FROM products where name ='%s'" % (message.text)).fetchall()
-        rep_mes = '''Продукт "''' + str(exec_result[0][0]) + '''", на 100 грамм:
+        rep_mes = '''На 100 грамм:
         Белки: ''' + str(exec_result[0][1]) + '''
         Жиры: ''' + str(exec_result[0][2]) + '''
         Углеводы: ''' + str(exec_result[0][3]) + '''
