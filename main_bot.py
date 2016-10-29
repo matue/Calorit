@@ -63,5 +63,7 @@ def show_product_info(message):
     #bot.reply_to(message, get_cat_names())
     #print(get_cat_names())
 
-
-bot.polling(none_stop=True, interval=0)
+try:
+    bot.polling(none_stop=True, interval=0)
+except ConnectionError:
+    pass
