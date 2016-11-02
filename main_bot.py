@@ -2,6 +2,7 @@
 import telebot
 import settings
 import sqlite3
+import requests
 from telebot import types
 
 
@@ -65,5 +66,6 @@ def show_product_info(message):
 
 try:
     bot.polling(none_stop=True, interval=0)
-except ConnectionError:
+except requests.ConnectionError:
     pass
+

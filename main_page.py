@@ -59,7 +59,7 @@ def show_product_info(category, product):
     if result:
         return template('views/product_info', rows=result, product=product)
     else:
-        return('page not found')
+        return template('views/404')
 
 
 @route('/:category')
@@ -73,7 +73,7 @@ def show_category(category):
                         result_by_kcal=result_by_kcal,
                         category=category)
     else:
-        return('page not found')
+        return template('views/404')
 
 
 application = default_app()
